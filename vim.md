@@ -1,14 +1,31 @@
-## I remeber these ... commands
+Vim - Vi IMproved
+=================
 
-x	# delete charcter
-dd	# delete a line
-2dd	# cut 2 lines
-diw	# cut word
-daw	# cut word and space
-dw	# cut the characters from the cursor to the next word
+I try to remeber these vim commands
+----------------------------
+
+### delete a charcter
+`x`
+
+### delete a line
+`dd`
+
+### cut 2 lines
+`2dd`
+
+### cut word
+`diw`
+
+### cut word and space
+`daw`
+
+### cut the characters from the cursor to the next word
+`dw`
 
 
-## I already know well that ... commands
-
+I already know well that vim commands
+-------------------------------------
+```
 :q! # exit
 :wq # save and exit
+```
