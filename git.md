@@ -4,6 +4,15 @@ GİT - Global Information Tracker
 I try to remeber these git commands
 ----------------------------
 
+### search
+```
+git blame file # каждую строку файла и тот кто ее последний раз изменял
+
+git grep -i keyword # without register
+git grep Hexlet 5120bea3 # Поиск в конкретном коммите
+git grep Hexlet $(git rev-list --all) # rev-list возвращает список хешей коммитов
+```
+
 ### изменения добавленые в индеск
 `git diff --staged`
 
@@ -21,6 +30,8 @@ I already know well that git commands
 git init
 git status
 git diff
+git log -p # with diff
+git show a3c0bf8a
 git add
 
 git commit -m 'name commit'
