@@ -5,13 +5,16 @@ I try to remeber these vim commands
 ----------------------------
 
 ### steps list
-:undolist
+`:undolist`
 
 ### stype back
-`u`
+<kbd>u</kbd>
 
 ### step forward
 `ctrl+r`
+
+### step forward  
+<kbd>ctrl</kbd>+<kbd>r</kbd>
 
 ### copy the line
 `yy`
@@ -28,6 +31,7 @@ I try to remeber these vim commands
 ### paste at the end of the line
 `J`
 
+#### other
 ```
 3yy # yank 3 lines
 2dd # cut 2 lines
