@@ -29,11 +29,10 @@ I try to remeber these vim commands
 `J`
 
 ```
-3yy	### yank 3 lines
-
-`2dd` ### cut 2 lines
-`dw`
-
+3yy # yank 3 lines
+2dd # cut 2 lines
+dw  # cut the characters from the cursor to the next word
+```
 
 I already know well that vim commands
 -------------------------------------
