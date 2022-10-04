@@ -5,7 +5,13 @@ I try to remeber these vim commands
 ----------------------------
 
 ### steps list
-`:undolist`
+type `:undolist`
+
+### move to start of file
+type `gg`
+
+### move to end of file
+<kbd>SHIFT</kbd>+<kbd>G</kbd>
 
 ### stype back
 <kbd>u</kbd>
