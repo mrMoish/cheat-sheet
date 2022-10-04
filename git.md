@@ -4,10 +4,10 @@ GİT - Global Information Tracker
 I try to remeber these git commands
 ----------------------------
 
-create ssh-key  
+### create ssh-key  
 `ssh-keygen -t ed25519 -c 'mail'`
 
-add ssh-key  
+### add ssh-key  
 `ssh-add /.ssh/id_ed255191`
 
 
