@@ -22,5 +22,5 @@ git add
 git commit -m 'name commit'
 git push
 
-git clone git@github.com:mrMoish/projcet
+git clone git@github.com:nikname/name-project
 ```
