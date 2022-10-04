@@ -1,7 +1,7 @@
-GIT - Global Information Tracker
+GİT - Global Information Tracker
 ================================
 
-I try to remeber these gıt commands
+I try to remeber these git commands
 ----------------------------
 
 create ssh-key  
