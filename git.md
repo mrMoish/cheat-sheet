@@ -1,17 +1,14 @@
 GIT - Global Information Tracker
-===ll===========================
+================================
 
-I remeber these gıt commands
+I try to remeber these gıt commands
 ----------------------------
 
-ssh-key  
+create ssh-key  
 `ssh-keygen -t ed25519 -c 'mail'`
 
-add ssh-key
+add ssh-key  
 `ssh-add /.ssh/id_ed255191`
-or  
-`ssh-add /y`
-
 
 
 I already know well that git commands
