@@ -4,22 +4,34 @@ Vim - Vi IMproved
 I try to remeber these vim commands
 ----------------------------
 
-### delete a charcter
-`x`
+### steps list
+:undolist
+
+### stype back
+`u`
+
+### step forward
+`ctrl+r`
+
+### copy the line
+`yy`
 
 ### delete a line
 `dd`
 
-### cut 2 lines
-`2dd`
+### delete a charcter
+`x`
 
-### cut word
-`diw`
+### paste
+`p`
 
-### cut word and space
-`daw`
+### paste at the end of the line
+`J`
 
-### cut the characters from the cursor to the next word
+```
+3yy	### yank 3 lines
+
+`2dd` ### cut 2 lines
 `dw`
 
 
