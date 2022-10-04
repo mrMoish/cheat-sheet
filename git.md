@@ -20,6 +20,7 @@ I already know well that git commands
 ```
 git init
 git status
+git diff
 git add
 
 git commit -m 'name commit'
