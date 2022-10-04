@@ -4,6 +4,9 @@ GİT - Global Information Tracker
 I try to remeber these git commands
 ----------------------------
 
+### изменения добавленые в индеск
+git diff --staged
+
 ### create ssh-key  
 `ssh-keygen -t ed25519 -C 'mail'`
 
