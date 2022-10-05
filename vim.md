@@ -4,6 +4,14 @@ Vim - Vi IMproved
 I try to remeber these vim commands
 ----------------------------
 
+> `w` go at the start of the word
+
+> `b` go back at the start of the  word
+
+> `e` go at the end of the word
+
+> `B` back word(it is beter)
+
 ### steps list
 type `:undolist`
 
@@ -50,7 +58,3 @@ I already know well that vim commands
 :q! # exit
 :wq # save and exit
 ```
-<kbd>w</kbd> # go at the start of the word
-<kbd>b</kbd> # go back at the start of the  word
-<kbd>e</kbd> # go at the end of the word
-<kbd>B</kbd> # back word(it is beter)
