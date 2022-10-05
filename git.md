@@ -34,7 +34,7 @@ git clean -fd
 ```
 
 ### новвые коммиты с обратными изменениями
-🟡 думаю проще использовать checkout и commit вместо этого 
+🟡 думаю проще использовать checkout и commit вместо этого  
 [more](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit/4114122#4114122)
 ```sh
 git revert 0d1d7fc..HEAD
