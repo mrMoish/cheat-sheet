@@ -67,7 +67,7 @@ git clone git@github.com:nikname/name-project
 ```
 
 
-# Question
+## Question
 
 изменения есть в рабочей области  
 но еще не добавлны в индекс  
