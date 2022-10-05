@@ -33,6 +33,21 @@ git restore --staged <file>... # cancel changes in index
 git clean -fd 
 ```
 
+### новвые коммиты с обратными изменениями
+🟡 думаю проще использовать checkout и commit вместо этого
+```sh
+git revert 0d1d7fc..HEAD
+git revert HEAD~2..HEAD
+```
+
+### delete commits **permanently**
+🔴 ْunsafe | небезопасно
+```sh
+git reset --hard 0d1d7fc32
+git reset --hard HEAD~2
+```
+
+
 I already know well that git commands
 -------------------------------------
 
