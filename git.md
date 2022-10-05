@@ -39,3 +39,6 @@ git push
 
 git clone git@github.com:nikname/name-project
 ```
+git clean -fd # -f принудительно, -d directory
+git restore file
+git restore --staged <file>... # cancel changes in index
