@@ -5,12 +5,18 @@ I try to remeber these git commands
 ----------------------------
 
 ### search
-```
+```console
 git blame file # каждую строку файла и тот кто ее последний раз изменял
 
 git grep -i keyword # without register
 git grep Hexlet 5120bea3 # Поиск в конкретном коммите
 git grep Hexlet $(git rev-list --all) # rev-list возвращает список хешей коммитов
+```
+
+### restore
+```sh
+git restore file
+git restore --staged <file>... # cancel changes in index
 ```
 
 ### изменения добавленые в индеск
@@ -22,6 +28,10 @@ git grep Hexlet $(git rev-list --all) # rev-list возвращает списо
 ### add ssh-key  
 `ssh-add /.ssh/id_ed255191`
 
+### удалить принудительно[-f] неотслеживаемые файлы и directory [-d] 
+```sh
+git clean -fd 
+```
 
 I already know well that git commands
 -------------------------------------
@@ -39,6 +49,3 @@ git push
 
 git clone git@github.com:nikname/name-project
 ```
-git clean -fd # -f принудительно, -d directory
-git restore file
-git restore --staged <file>... # cancel changes in index
