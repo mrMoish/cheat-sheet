@@ -16,7 +16,7 @@ git add -i # can choose changes in the file
 
 
 git commit file1 file2 # include git add file1 and file 2
-git commit f1 f2 -m 'name commit' (не для файлов которых нет в индексе😔)
+git commit f1 f2 -m 'name commit' # (не для файлов которых нет в индексе😔)
 
 git add . # gid add all files
 git commit -a # include git add . (кроме файлов которых нет в индексе😔)
