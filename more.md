@@ -10,12 +10,11 @@
 > https://stackoverflow.com/questions/57263483/bash-alias-not-saving-beyond-one-session
 ## path for brew
 export PATH+=:/opt/homebrew/bin
-## locate in terminal
 для быстрого пойска адресов файла
 ```sh
 locate file.txt
 ```
-(не использовал)[https://apple.stackexchange.com/questions/232472/locate-database-does-not-exist-even-though-it-is-already-loaded]  
+[didn't use](https://apple.stackexchange.com/questions/232472/locate-database-does-not-exist-even-though-it-is-already-loaded)
   
 доп команда для проверки выполнение инструкции при первом запуске, так как требуется ждать незвестное время когда заработает  
 `ls -l /var/db/locate.database`
