@@ -167,7 +167,8 @@ alias camend='git commit --amend --no-edit'
 alias commita='git commit --amend --no-edit'
 ```
 
-### Bash Completion не работает как описанно
-при двойном тапе после комманыд git не повляются подскаки  add clone commit
+### Bash Completion don't work 😡
 [there](https://sourabhbajaj.com/mac-setup/BashCompletion/) 
-
+and
+i don't follow it
+[PS1 for bash](https://ru.hexlet.io/blog/posts/kak-prisoedinitsya-k-rabote-nad-opensorsom-chto-takoe-ps1-i-drugie-voprosy-otvechaet-razrabotchik-heksleta-andrey-moshkov#chto-takoe-ps1-i-dlya-chego-ispolzuetsya) 
