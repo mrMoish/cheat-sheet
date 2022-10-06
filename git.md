@@ -77,6 +77,7 @@ git diff
 git log --oneline # short version
 git log -p # with diff
 git show a3c0bf8a
+git checkout a3c0bf8
 git add
 
 git commit -m 'name commit'
