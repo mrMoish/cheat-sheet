@@ -8,3 +8,5 @@
 > https://stackoverflow.com/questions/54943134/bash-aliases-dont-work-when-defined-in-separate-file-called-by-bashrc
 
 > https://stackoverflow.com/questions/57263483/bash-alias-not-saving-beyond-one-session
+## path for brew
+export PATH+=:/opt/homebrew/bin
