@@ -74,6 +74,7 @@ I already know well that git commands
 git init
 git status
 git diff
+git log --oneline # short version
 git log -p # with diff
 git show a3c0bf8a
 git add
