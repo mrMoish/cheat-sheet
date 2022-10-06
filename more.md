@@ -20,4 +20,5 @@ locate file.txt
 `ls -l /var/db/locate.database`
 ## активироать .bash_profile без перезапуска компа
 `source ~/.bash_profile`  
-ближе познакомится с командой `source`
+ближе познакомится с командой `source`  
+[oh my zsh](https://ohmyz.sh)
