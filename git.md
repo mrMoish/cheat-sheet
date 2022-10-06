@@ -166,3 +166,8 @@ alias gca='git commit --amend --no-edit'
 alias camend='git commit --amend --no-edit'
 alias commita='git commit --amend --no-edit'
 ```
+
+### Bash Completion не работает как описанно
+при двойном тапе после комманыд git не повляются подскаки  add clone commit
+[there](https://sourabhbajaj.com/mac-setup/BashCompletion/) 
+
