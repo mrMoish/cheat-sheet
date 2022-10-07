@@ -175,3 +175,5 @@ i don't follow it
 git switch -
 `git checkout main`
 `git branch`
+  
+Если добавить имя файла в конец команды git log, отделив его знаками --, можно увидеть, в каких коммитах он изменялся  
