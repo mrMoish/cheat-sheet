@@ -187,8 +187,17 @@ alias commita='git commit --amend --no-edit'
 and
 i don't follow it
 [PS1 for bash](https://ru.hexlet.io/blog/posts/kak-prisoedinitsya-k-rabote-nad-opensorsom-chto-takoe-ps1-i-drugie-voprosy-otvechaet-razrabotchik-heksleta-andrey-moshkov#chto-takoe-ps1-i-dlya-chego-ispolzuetsya) 
-git switch -
-`git checkout main`
-`git branch`
+
+> git switch -
+> `git checkout main`
+> `git branch`
   
-Если добавить имя файла в конец команды git log, отделив его знаками --, можно увидеть, в каких коммитах он изменялся  
+> Если добавить имя файла в конец команды git log, отделив его знаками --, можно увидеть, в каких коммитах он изменялся  
+  
+> [Trunk Basd/ пробема слияний веток](https://habr.com/ru/post/534882/)[
+> [more](https://trunkbaseddevelopment.com)
+> Trunk Based Development - отличная модель ветвления, которая наконец-то поможет вам избавится от кошмара слияния веток, позволит получить больше контроля над кодом, а команду сделать более дисциплинированной, превратит "теневое внедрение" из просто интересного приема в обыденность.
+
+ 
+  
+  
