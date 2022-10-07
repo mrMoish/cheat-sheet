@@ -14,6 +14,20 @@ Attention
 
 I try to remeber these git commands
 ----------------------------
+### stash 
+
+```sh
+git stash
+
+# изменяем файлы
+git stash
+
+# Вернутся последние изменения
+git stash pop
+
+# Вернутся предпоследние изменения
+git stash pop
+``` 
 
 ### committing well
 ```sh
