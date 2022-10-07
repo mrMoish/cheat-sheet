@@ -173,3 +173,4 @@ and
 i don't follow it
 [PS1 for bash](https://ru.hexlet.io/blog/posts/kak-prisoedinitsya-k-rabote-nad-opensorsom-chto-takoe-ps1-i-drugie-voprosy-otvechaet-razrabotchik-heksleta-andrey-moshkov#chto-takoe-ps1-i-dlya-chego-ispolzuetsya) 
 git switch -
+`git checkout main`
