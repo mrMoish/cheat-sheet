@@ -227,3 +227,4 @@ i don't follow it
 # на всех уровнях вложенности
 ## doc/**/*.txt
 ```
+[more usefull](https://github.com/github/gitignore)
