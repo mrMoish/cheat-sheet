@@ -44,7 +44,11 @@ git restore --staged <file>... # cancel changes in index
 `ssh-keygen -t ed25519 -C 'mail'`
 
 ### add ssh-key  
-`ssh-add /.ssh/id_ed255191`
+
+```sh
+#без этой команды будет всегда запрашивать пароль при работе с github
+ssh-add /.ssh/id_ed25519
+```
 
 ### удалить принудительно[-f] неотслеживаемые файлы и directory [-d] 
 ```sh
