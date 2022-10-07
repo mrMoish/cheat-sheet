@@ -200,7 +200,7 @@ i don't follow it
 
 > 'git log --graph'  
   
-  
+```  
 ### example .gitignore
 # В этом файле можно оставлять комментарии
 # Имя файла .gitignore
@@ -225,3 +225,4 @@ i don't follow it
 # игнорировать все .txt файлы в каталоге doc/
 # на всех уровнях вложенности
 ## doc/**/*.txt
+```
