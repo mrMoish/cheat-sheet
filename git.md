@@ -200,8 +200,9 @@ i don't follow it
 
 > 'git log --graph'  
   
-```  
 ### example .gitignore
+  
+```  
 # В этом файле можно оставлять комментарии
 # Имя файла .gitignore
 # Файл нужно создать самостоятельно
