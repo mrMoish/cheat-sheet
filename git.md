@@ -1,8 +1,33 @@
 GİT - Global Information Tracker
 ================================
 
+Attention
+---------
+
+> Понятие «голова списка» (HEAD) в Git присутствует явно и активно используется для разных операций. 
+
+> Сам список коммитов тоже имеет название, вы его уже видели: это — main. В терминологии Git такой список называется веткой (branch). Именно поэтому команда для показа текущего местоположения в истории называется git branch
+>
+> ветка в Git — это просто подвижный указатель на один из коммитов. При каждом новом коммите указатель сдвигается вперед автоматически.
+
+
+
 I try to remeber these git commands
 ----------------------------
+### stash 
+
+```sh
+git stash
+
+# изменяем файлы
+git stash
+
+# Вернутся последние изменения
+git stash pop
+
+# Вернутся предпоследние изменения
+git stash pop
+``` 
 
 ### committing well
 
@@ -45,7 +70,11 @@ git restore --staged <file>... # cancel changes in index
 `ssh-keygen -t ed25519 -C 'mail'`
 
 ### add ssh-key  
-`ssh-add /.ssh/id_ed255191`
+
+```sh
+#без этой команды будет всегда запрашивать пароль при работе с github
+ssh-add /.ssh/id_ed25519
+```
 
 ### удалить принудительно[-f] неотслеживаемые файлы и directory [-d] 
 ```sh
@@ -173,3 +202,45 @@ alias commita='git commit --amend --no-edit'
 and
 i don't follow it
 [PS1 for bash](https://ru.hexlet.io/blog/posts/kak-prisoedinitsya-k-rabote-nad-opensorsom-chto-takoe-ps1-i-drugie-voprosy-otvechaet-razrabotchik-heksleta-andrey-moshkov#chto-takoe-ps1-i-dlya-chego-ispolzuetsya) 
+
+> git switch -
+> `git checkout main`
+> `git branch`
+  
+> Если добавить имя файла в конец команды git log, отделив его знаками --, можно увидеть, в каких коммитах он изменялся  
+  
+> [Trunk Basd/ пробема слияний веток](https://habr.com/ru/post/534882/)[
+> [more](https://trunkbaseddevelopment.com)
+> Trunk Based Development - отличная модель ветвления, которая наконец-то поможет вам избавится от кошмара слияния веток, позволит получить больше контроля над кодом, а команду сделать более дисциплинированной, превратит "теневое внедрение" из просто интересного приема в обыденность.
+
+> 'git log --graph'  
+  
+## example .gitignore
+  
+```  
+# В этом файле можно оставлять комментарии
+# Имя файла .gitignore
+# Файл нужно создать самостоятельно
+
+# Каждая строчка — это шаблон, по которому происходит игнорирование
+
+# Игнорируется файл в любой директории проекта
+## access.log
+
+# Игнорируется директория в любой директории проекта
+## node_modules/
+
+# Игнорируется каталог в корне рабочей директории
+## /coverage/
+
+# Игнорируются все файлы с расширением sqlite3 в директории db,
+# но не игнорируются такие же файлы внутри любого вложенного каталога в db
+# например, /db/something/lala.sqlite3
+## /db/*.sqlite3
+
+# игнорировать все .txt файлы в каталоге doc/
+# на всех уровнях вложенности
+## doc/**/*.txt
+```
+[more usefull](https://github.com/github/gitignore)  
+[ Atlassian по gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore)
