@@ -227,4 +227,5 @@ i don't follow it
 # на всех уровнях вложенности
 ## doc/**/*.txt
 ```
-[more usefull](https://github.com/github/gitignore)
+[more usefull](https://github.com/github/gitignore)  
+[ Atlassian по gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore)
