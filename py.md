@@ -19,3 +19,9 @@ _ + 1 # _ just for PERL(>>>)
 PyPI and Test PyPI
 
 Setuptools([doc](https://setuptools.pypa.io/en/latest/)) # for my packets
+
+pip — The Python Package Installer
+
+
+
+

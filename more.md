@@ -22,3 +22,47 @@ locate file.txt
 `source ~/.bash_profile`  
 ближе познакомится с командой `source`  
 [oh my zsh](https://ohmyz.sh)
+
+## terminal 
+
+pwd 
+
+ls -la
+
+touch mv cp rm
+
+head 
+
+tail
+
+grep … | grep …
+
+sort | uniq
+
+.bash_history
+
+!1
+
+Control+r
+
+id
+
+/etc/passwd
+
+man
+
+--help
+
+ps aux
+
+sudo -i 
+
+exit
+
+chmod 777 file
+
+// remove files and directories quickly via terminal 
+
+rm -rf some_dir
+
+rm -rf *
