@@ -14,7 +14,7 @@ repr('str') # канонического строкового представл
 
 None # function() -> None
  
->>> _ + 1 # _ just for PERL(>>>)
+_ + 1 # _ just for PERL(>>>)
 
 PyPI and Test PyPI
 
