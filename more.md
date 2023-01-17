@@ -25,6 +25,8 @@ locate file.txt
 
 ## terminal 
 
+.bash_profile and .bashrc
+
 pwd 
 
 ls -la
