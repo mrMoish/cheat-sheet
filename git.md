@@ -269,3 +269,7 @@ i don't follow it
 [more usefull](https://github.com/github/gitignore)
 
 git log --grep="add note about installing git on linux"
+
+git pull --rebase
+
+$ git rm --cached README (удалить файл из индекса, оставив его при этом в рабочем каталоге)
