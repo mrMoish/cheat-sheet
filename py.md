@@ -22,6 +22,6 @@ Setuptools([doc](https://setuptools.pypa.io/en/latest/)) # for my packets
 
 pip — The Python Package Installer
 
+python3 -m pip install --user cowsay (--user без него тоже не устанавливатся глобально)
 
-
-
+python3 -m pip install --user --upgrade pip

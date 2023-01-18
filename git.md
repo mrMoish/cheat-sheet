@@ -267,3 +267,5 @@ i don't follow it
 ## doc/**/*.txt
 ```
 [more usefull](https://github.com/github/gitignore)
+
+git log --grep="add note about installing git on linux"

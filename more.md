@@ -35,7 +35,7 @@ touch mv cp rm
 
 head 
 
-tail
+tail -n 7
 
 grep … | grep …
 
