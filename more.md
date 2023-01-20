@@ -41,6 +41,8 @@ grep … | grep …
 
 sort | uniq
 
+sort -r, --reverse
+
 .bash_history
 
 !1
