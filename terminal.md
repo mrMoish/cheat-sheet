@@ -26,3 +26,8 @@
 (from)[https://ru.hexlet.io/code_reviews/854362?submission_id=1101656]
 (doc)[https://www.gnu.org/software/bash/manual/html_node/Controlling-the-Prompt.html]
 
+##???
+echo "print(f'{greeting}, {first_name}!')" >> f.md
+
+not work
+
