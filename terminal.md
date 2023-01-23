@@ -26,8 +26,61 @@
 (from)[https://ru.hexlet.io/code_reviews/854362?submission_id=1101656]
 (doc)[https://www.gnu.org/software/bash/manual/html_node/Controlling-the-Prompt.html]
 
+.bash_profile and .bashrc
+
+pwd 
+
+ls -la
+
+touch mv cp rm
+
+head 
+
+tail -n 7
+
+grep … | grep …
+
+sort | uniq
+
+sort -r, --reverse
+
+.bash_history
+
+!1
+
+Control+r
+
+id
+
+/etc/passwd
+
+man
+
+--help
+
+ps aux
+
+sudo -i 
+
+exit
+
+chmod 777 file
+
+// remove files and directories quickly via terminal 
+
+rm -rf some_dir
+
+rm -rf *
+
+$ HOME=/tmp cd
+
+$ export HOME=/tmp
+
+echo 'export HOME=/tmp' >> ~/.bash_profile(.bashrc)
+
+$ env (PATH, HOME ...)
+
 ##???
 echo "print(f'{greeting}, {first_name}!')" >> f.md
 
 not work
-
