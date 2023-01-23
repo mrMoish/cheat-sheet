@@ -25,3 +25,13 @@ pip — The Python Package Installer
 python3 -m pip install --user cowsay (--user без него тоже не устанавливатся глобально)
 
 python3 -m pip install --user --upgrade pip
+
+python3 -m venv имя_окружения
+
+имя_окружения/bin/pip install cowsay
+
+имя_окружения/bin/python3
+
+source first_venv/bin/activate
+
+deactivate
