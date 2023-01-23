@@ -1,4 +1,4 @@
-; Terminal on Mac OS
+Terminal on Mac OS
 
 > env (PATH, HOME ...)
 
