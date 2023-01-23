@@ -5,10 +5,14 @@ Python
 
 > repr('str') # канонического строкового представления
 
-PyPI and Test PyPI
-Setuptools([doc](https://setuptools.pypa.io/en/latest/)) # for my packets
-None # function() -> None
-_ + 1 # _ just for PERL(>>>)
+> PyPI and Test PyPI
+
+> Setuptools([doc](https://setuptools.pypa.io/en/latest/)) # for my packets
+
+> None # function() -> None
+
+>_ + 1 # _ just for PERL(>>>)
+
 Man, Help, Doc 
 -----------------------------------
 
