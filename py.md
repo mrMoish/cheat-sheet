@@ -54,7 +54,7 @@ chmod +x script.py
 __name__.py, __init__.py,
 -------- 
 полное имя модуля(при импорте) или __main__
-'''
+```
 #!/usr/bin/env python3
 
 def greet(who):
@@ -66,5 +66,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
-
+```
