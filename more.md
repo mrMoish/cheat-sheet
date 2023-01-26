@@ -41,6 +41,8 @@ grep … | grep …
 
 sort | uniq
 
+sort -r, --reverse
+
 .bash_history
 
 !1
@@ -68,3 +70,11 @@ chmod 777 file
 rm -rf some_dir
 
 rm -rf *
+
+$ HOME=/tmp cd
+
+$ export HOME=/tmp
+
+echo 'export HOME=/tmp' >> ~/.bash_profile(.bashrc)
+
+$ env (PATH, HOME ...)
