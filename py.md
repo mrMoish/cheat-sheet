@@ -122,3 +122,9 @@ False or 'no' # Выбирается и возвращается 'no'
 
 ## more
 > return 'question' if last_char == '?' else 'normal'
+
+## ????
+```python
+def sum_of_square_digits(number):
+    return sum(int(x) ** 2 for x in str(number))
+```
