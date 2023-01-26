@@ -29,7 +29,6 @@ python3 -m pip install --user cowsay (--user без него тоже не ус�
 
 python3 -m pip install --user --upgrade pip
 
-<<<<<<< HEAD
 python3 -m venv имя_окружения
 
 имя_окружения/bin/pip install cowsay
@@ -39,7 +38,6 @@ python3 -m venv имя_окружения
 source first_venv/bin/activate
 
 deactivate
-=======
 python3 -m pip install --user --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple dogesay
 
 python3 -m pip install --user git+https://github.com/hexlet-boilerplates/python-package.git
@@ -124,4 +122,3 @@ False or 'no' # Выбирается и возвращается 'no'
 
 ## more
 > return 'question' if last_char == '?' else 'normal'
->>>>>>> origin/HEAD
