@@ -37,6 +37,8 @@ python3 -m venv имя_окружения
 
 source first_venv/bin/activate
 
+python3 -m venv --upgrade-deps .venv
+
 deactivate
 python3 -m pip install --user --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple dogesay
 
