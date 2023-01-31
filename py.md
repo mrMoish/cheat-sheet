@@ -13,6 +13,35 @@ Python
 
 >_ + 1 # _ just for PERL(>>>)
 
+> А теперь представим, что вы написали какой-то важный код в одном из модулей пакета scripts и хотите его импортировать в другие места. В этом случае стоит остановиться и подумать, а должен ли этот код вообще находиться в скрипте. Проще говоря, скрипты могут импортировать что-то из библиотеки, но не наоборот.
+
+Poetry
+-----
+```
+brew install poetry
+poetry config --list
+poetry config virtualenvs.in-project true
+
+poetry new new_project
+poetry install #cd new_project
+
+poetry shell #activate venv
+exit
+
+pip list
+
+poetry run python #perl
+
+poetry add colorama
+poetry remove colorama
+
+poetry add --group dev pytest
+
+##pyproject.toml - точка входа
+[tool.poetry.scripts]
+say-hello = "hello.scripts.say_hello:main"
+```
+
 Man, Help, Doc 
 -----------------------------------
 
