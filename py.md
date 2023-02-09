@@ -54,6 +54,8 @@ help() and topic
 pip — The Python Package Installer
 --------------------
 
+python3 -m pip install --user /Users/mr_vi/Desktop/T/dist/t-0.1.0-py3-none-any.whl 
+
 python3 -m pip install --user cowsay (--user без него тоже не устанавливатся глобально)
 
 python3 -m pip install --user --upgrade pip
@@ -158,4 +160,5 @@ False or 'no' # Выбирается и возвращается 'no'
 ```python
 def sum_of_square_digits(number):
     return sum(int(x) ** 2 for x in str(number))
+
 ```
