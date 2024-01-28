@@ -92,6 +92,14 @@ git restore --staged <file>... # cancel changes in index
 ### create ssh-key  
 `ssh-keygen -t ed25519 -C 'mail'`
 
+### получить pub ssh-key который нужно добавить на github
+`pbcopy < ~/.ssh/id_ed25519.pub`
+`cat ~/.ssh/id_ed25519.pub`
+
+### проверка ssh соеденения с github
+`ssh -T git@github.com`
+
+
 ### add ssh-key  
 
 ```sh
