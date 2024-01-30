@@ -12,7 +12,14 @@ Attention
 
 > [Восстановление удаленного коммита/ветки](https://webdevkin.ru/courses/git/git-merge)
 
-
+> **Типы коммитов**
+> feature — добавлен новый функционал уровня приложения
+> fix — исправили серьезный баг
+> docs — документации
+> style — опечатки, форматирование
+> refactor — рефакторинг
+> test — тесты и тестированием
+> chore — обычное обслуживание кода
 
 
 I try to remeber these git commands
@@ -278,6 +285,7 @@ i don't follow it
 # на всех уровнях вложенности
 ## doc/**/*.txt
 ```
+
 [more usefull](https://github.com/github/gitignore)
 
 git log --grep="add note about installing git on linux"
