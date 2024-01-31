@@ -19,7 +19,7 @@ QuickStart
 ```
 git init
 ```
-or (для старых версия где master по-умолчанию) 
+or [где master по-умолчанию](https://stackoverflow.com/questions/64249491/why-does-git-push-main-work-on-github-when-git-push-master-does-not-also-wh)
 ```
 git init -b main
 ```
