@@ -5,7 +5,8 @@ Terminal on Mac OS
 sudo lsof -i :3000
 ```
 
-### Archive
+Archive
+-------
 Переменные окружения (PATH, HOME ...)
 ```
 env 
