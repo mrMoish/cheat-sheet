@@ -7,7 +7,7 @@ Terminal on Mac OS
 sudo lsof -i :3000
 ```
 
-### Arhiv
+### Archive
 ```
 # Переменные окружения
 # (PATH, HOME ...)
