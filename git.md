@@ -158,6 +158,8 @@ git commit -m 'name commit'
 git push
 
 git clone git@github.com:nikname/name-project
+# указывает глубину клонирования, ограничивая количество истории коммитов
+git clone --depth=10 (...)
 ```
 
 
