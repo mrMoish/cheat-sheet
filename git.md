@@ -34,13 +34,16 @@ git add README.md
 git commit -m 'chore: add README'
 ```
 
-### 3. Добавления удаленного репозитория
+### 3. Добавления и связывания с удаленным  репозиторием
 ```
 git remote add origin https://github.com/mrmoish/site.git
+git push -u origin main
 ```
 > origin - это имя (alias) удаленного репозитория https://github.com/mrmoish/site.git
 
 > origin == https://github.com/mrmoish/site.git
+
+> -u или --set-upstream - флаг устанавливает текущую локальную ветку в отслеживание (upstream) указанной удаленной ветки
 
 Типы коммитов
 -------------
