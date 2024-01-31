@@ -56,6 +56,10 @@ git push -u origin main
 - chore — обычное обслуживание кода
 
 
+Работа в команде 
+----------------
+(статья)[https://nuancesprog.ru/p/1832/]
+
 I try to remeber these git commands
 ----------------------------
 
