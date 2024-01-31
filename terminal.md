@@ -20,11 +20,15 @@ Terminal on Mac OS
 - [ ] PS1='\e[1;92m\u\e[m@\e[3;92m\e[94m\w\e[m$ '
 
 nano ~/.bashrc
+
 // Вставил в самый низ файла на выбор 1 из 2 стилей
+
 source ~/.bashrc
+
 // Перезапустить консоль если сразу не поменялось
 
 (from)[https://ru.hexlet.io/code_reviews/854362?submission_id=1101656]
+
 (doc)[https://www.gnu.org/software/bash/manual/html_node/Controlling-the-Prompt.html]
 
 ### Other
