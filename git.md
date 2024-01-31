@@ -16,9 +16,13 @@ Attention
 QuickStart
 ----------
 1. 
-``` git init ```
+```
+git init
+```
 or (для старых версия где master по-умолчанию) 
-``` git init -b main ```
+```
+git init -b main
+```
 
 
 
