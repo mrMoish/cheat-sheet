@@ -15,11 +15,11 @@ Terminal on Mac OS
 
 ❌ echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bashcr (it does'n work)[https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically/338622#338622]
 
-## export PS1="> \u@\W$ "
+## Формат вывода  терминала 
 '''
 // Так сделал у себя
-PS1='\e[1;92m\u\e[m@\e[3;92m \t \d \e[94m\w\e[m$ '
-PS1='\e[1;92m\u\e[m@\e[3;92m\e[94m\w\e[m$ '
+- [x] PS1='\e[1;92m\u\e[m@\e[3;92m \t \d \e[94m\w\e[m$ '
+- [ ] PS1='\e[1;92m\u\e[m@\e[3;92m\e[94m\w\e[m$ '
 
 nano ~/.bashrc
 // Вставил в самый низ файла на выбор 1 из 2 стилей
