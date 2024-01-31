@@ -15,7 +15,7 @@ Attention
 
 QuickStart
 ----------
-### 1 Инициализация 
+### 1. Инициализация 
 ```
 git init
 ```
@@ -27,13 +27,20 @@ or
 git init -b main
 ```
 
-### 2 Создание и коммит
+### 2. Создание и коммит
 ```
 echo '# site' >> README.md
 git add README.md
 git commit -m 'chore: add README'
 ```
 
+### 3. Добавления удаленного репозитория
+```
+git remote add origin https://github.com/mrmoish/site.git
+```
+> origin - это имя (alias) удаленного репозитория https://github.com/mrmoish/site.git
+
+> origin == https://github.com/mrmoish/site.git
 
 Типы коммитов
 -------------
