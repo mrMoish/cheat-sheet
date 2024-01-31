@@ -15,7 +15,7 @@ Attention
 
 QuickStart
 ----------
-## 1
+### 1 Инициализация 
 ```
 git init
 ```
@@ -27,7 +27,7 @@ or
 git init -b main
 ```
 
-## 2
+### 2 Создание и коммит
 ```
 echo '# site' >> README.md
 git add README.md
