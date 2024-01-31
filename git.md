@@ -15,7 +15,7 @@ Attention
 
 QuickStart
 ----------
-# 1
+## 1
 ```
 git init
 ```
@@ -26,7 +26,8 @@ or
 ```
 git init -b main
 ```
-# 2
+
+## 2
 ```
 echo '# site' >> README.md
 git add README.md
