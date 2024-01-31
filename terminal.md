@@ -11,9 +11,9 @@ Terminal on Mac OS
 
 ### .bashrc or .bash_profile for HomeBrew
 
-✅ echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bash_profile 
+- [x] echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bash_profile 
 
-❌ echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bashcr (it does'n work)[https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically/338622#338622]
+- [ ] echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bashcr (it does'n work)[https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically/338622#338622]
 
 ### Формат вывода терминала 
 - [x] PS1='\e[1;92m\u\e[m@\e[3;92m \t \d \e[94m\w\e[m$ '
