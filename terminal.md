@@ -12,7 +12,6 @@ Terminal on Mac OS
 ### .bashrc or .bash_profile for HomeBrew
 
 - [x] echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bash_profile 
-
 - [ ] echo 'export PATH+=:/opt/homebrew/bin' >> ~/.bashcr (it does'n work)[https://apple.stackexchange.com/questions/12993/why-doesnt-bashrc-run-automatically/338622#338622]
 
 ### Формат вывода терминала 
