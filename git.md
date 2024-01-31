@@ -21,8 +21,7 @@ git init
 ```
 or
 (где
-[master]
-(https://stackoverflow.com/questions/64249491/why-does-git-push-main-work-on-github-when-git-push-master-does-not-also-wh)
+[master](https://stackoverflow.com/questions/64249491/why-does-git-push-main-work-on-github-when-git-push-master-does-not-also-wh)
  по-умолчанию)
 ```
 git init -b main
