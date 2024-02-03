@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 echo "1 whoami ; whoami"
@@ -48,3 +49,4 @@ echo "13 Finished"
 
 ll=`cat .run`
 echo "14: $REPLY $ll"
+```
