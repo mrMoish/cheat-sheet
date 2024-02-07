@@ -55,6 +55,25 @@ git push -u origin main
 - test — тесты и тестированием
 - chore — обычное обслуживание кода
 
+Aliases(Псевдонимы)
+-------------------
+###### [основной способ)]([https](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
+~/.gitconfig
+```sh
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	lg = log --all --graph  --oneline
+```
+
+## in .zshrc or .bashrc
+shortcut git in zsh and bash
+```sh
+alias gd='git diff'
+alias gds='git diff -staged'
+```
+
 
 Работа в команде 
 ----------------
@@ -180,14 +199,7 @@ git reset
 
 I already know well that git commandso
 -------------------------------------
-## ~/.gitconfig
-```
-[alias]
-	st = status
-	co = checkout
-	br = branch
-	lg = log --all --graph  --oneline
-```
+
 
 
 ```
@@ -258,36 +270,7 @@ Unmerged paths:
   (use "git add <file>..." to mark resolution)
 	both modified:   README.md
 ```
-## alias in .zshrc or .bashrc
-shortcut git in zsh and bash
-```sh
-# этот файл запускается при открытие сессии и работает для конкретной сессии
-# может лучше добпвть в .profile или .zprofile так как будет работать для всех сессий после перезагруски
-# which-command или whence узнать что стоит за этим alias (only ZSH-shell)
 
-alias st='git status'
-alias gst='git status'
-alias gs='git status'
-
-alias glog='git log'
-alias glogp='git log -p'
-alias glp='git log -p'
-alias gadd='git add'
-
-alias gd='git diff'
-alias gdiff='git diff'
-alias gdiffs='git diff -staged'
-alias gds='git diff -staged'
-
-alias cmmt='git commit -m'
-alias gcmmt='git commit -m'
-alias gcommit='git commit -m'
-alias commit='git commit -m'
-
-alias gca='git commit --amend --no-edit'
-alias camend='git commit --amend --no-edit'
-alias commita='git commit --amend --no-edit'
-```
 
 ### Bash Completion don't work 😡
 [there](https://sourabhbajaj.com/mac-setup/BashCompletion/) 
