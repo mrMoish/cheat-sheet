@@ -66,7 +66,7 @@ Aliases(Псевдонимы)
 	br = branch
 	lg = log --all --graph  --oneline
 ```
-[статья)](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
+[статья](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
 ### в файле .bashrc(.zshrc)
 shortcut git in zsh and bash
