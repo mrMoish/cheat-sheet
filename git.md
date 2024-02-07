@@ -57,7 +57,7 @@ git push -u origin main
 
 Aliases(Псевдонимы)
 -------------------
-###### [основной способ)]([https](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
+### [основной способ)]([https](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 ~/.gitconfig
 ```sh
 [alias]
@@ -67,7 +67,7 @@ Aliases(Псевдонимы)
 	lg = log --all --graph  --oneline
 ```
 
-## in .zshrc or .bashrc
+### in .zshrc or .bashrc
 shortcut git in zsh and bash
 ```sh
 alias gd='git diff'
