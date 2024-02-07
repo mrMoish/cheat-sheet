@@ -180,6 +180,15 @@ git reset
 
 I already know well that git commandso
 -------------------------------------
+## ~/.gitconfig
+```
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	lg = log --all --graph  --oneline
+```
+
 
 ```
 git init
