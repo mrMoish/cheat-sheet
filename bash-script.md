@@ -1,3 +1,20 @@
+useful
+------
+```bash
+n1 -eq n2 # n1 = n2.
+n1 -ge n2 # n1 >= n2.
+n1 -gt n2 # n1 > n2.
+n1 -le n2 # n1 <= n2.
+n1 -lt n2 # n1 < n2.
+n1 -ne n2 # n1 != n2.
+```
+
+attention
+---------
+
+(set -e)[http://mywiki.wooledge.org/BashFAQ/105]
+
+
 Вопросы
 -------
 
