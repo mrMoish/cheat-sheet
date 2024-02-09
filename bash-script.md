@@ -12,7 +12,7 @@ n1 -ne n2 # n1 != n2.
 attention
 ---------
 
-(set -e)[http://mywiki.wooledge.org/BashFAQ/105]
+[set -e](http://mywiki.wooledge.org/BashFAQ/105)
 
 
 Вопросы
