@@ -22,9 +22,12 @@ attention
 
   Почему в bash-скриптах команда 'exit' в конвейере внутри цикла 'while' выходит из цикла, и как можно изменить это поведение?
    https://stackoverflow.com/questions/43483661/exit-bash-script-within-while-loop
+   
 2. можно ли в скрипте менять env?
-3. Как перезаписывать переменую. Как определять глобалные переменые. Зона видемости переменых.
-4. Ввод значений в фоновй проццес [не проверял](https://unix.stackexchange.com/questions/216778/shell-script-sending-input-to-background-process)
+   
+4. Как перезаписывать переменую. Как определять глобалные переменые. Зона видемости переменых.
+   
+6. Ввод значений в фоновй проццес [не проверял](https://unix.stackexchange.com/questions/216778/shell-script-sending-input-to-background-process)
 
 
 ```
