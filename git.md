@@ -132,17 +132,15 @@ git branch -d <branch_name> # удалить ветку
 
 
 ```
-### stash 
+### перемещать изменения между ветками 
 
-```sh
+```
 git stash
-
-# изменяем файлы
-git stash
-
-# Вернутся последние изменения
+```
+```
 git stash pop
-
+```
+```
 git stash drop
 ``` 
 
