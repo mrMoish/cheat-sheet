@@ -38,7 +38,7 @@ git commit --allow-empty -m "GENESIS"
 ```
 or
 ```
-echo '# site' >> README.md
+echo 'Hola! Hi! Привет! Merhaba!' > README.md
 git add README.md
 git commit -m 'chore: add README'
 ```
