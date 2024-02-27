@@ -14,7 +14,7 @@ Attention
 
 > --amend — добавить изменения в последний коммит или переименовать последний коммит.
 > работает только ветке где сделан последний комминт
-> (отмена)[https://stackoverflow.com/questions/1459150/how-to-undo-git-commit-amend-done-instead-of-git-commit]
+> [отмена](https://stackoverflow.com/questions/1459150/how-to-undo-git-commit-amend-done-instead-of-git-commit)
 
 > [Восстановление удаленного коммита/ветки](https://webdevkin.ru/courses/git/git-merge)
 
