@@ -103,17 +103,24 @@ alias gds='git diff -staged'
 I try to remeber these git commands
 ----------------------------
 
+### перемещать изменения между ветками 
+
+```
+git stash
+```
+```
+git stash pop
+```
+```
+git stash drop
+``` 
+
 ### to rename a commit in  history
 ```
 git rebase -i HEAD~3
 ```
-1. В первом редакторе заменяем перед нужным каммитом
-   'pick' замнаешь на  'reword'
+1. 'pick' замнаем на  'reword' перед нужным каммитом в первом редакторе
 2. В следущем редакторе новое имя коммита 
-
-
-
-
 
 
 ### need to know more
@@ -128,22 +135,7 @@ git reflog # история коммитов, на которые указыва
 git merge dev # слить изменения из ветки “dev” в ветку “master”, нам необходимо перейти на ветку “master” и в ней выполнить это
 
 git branch -d <branch_name> # удалить ветку
-
-
-
 ```
-### перемещать изменения между ветками 
-
-```
-git stash
-```
-```
-git stash pop
-```
-```
-git stash drop
-``` 
-
 
 
 
