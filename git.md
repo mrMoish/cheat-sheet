@@ -91,12 +91,27 @@ alias gds='git diff -staged'
 ```
 
 
+
+
+
 Работа в команде 
 ----------------
 [статья](https://nuancesprog.ru/p/1832/)
 
 I try to remeber these git commands
 ----------------------------
+
+### to rename a commit in  history
+```
+git rebase -i HEAD~3
+```
+>В первом редакторе замени перед нужным камитом 
+>'pick' замна 'reword'
+>В следущем редакторе новое имя коммита 
+
+
+
+
 
 
 ### need to know more
