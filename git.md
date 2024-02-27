@@ -124,8 +124,7 @@ git stash
 # Вернутся последние изменения
 git stash pop
 
-# Вернутся предпоследние изменения
-git stash pop
+git stash drop
 ``` 
 
 
