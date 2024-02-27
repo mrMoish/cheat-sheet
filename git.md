@@ -32,6 +32,11 @@ git init -b main
 ```
 
 ### 2. Создание и коммит
+
+```
+git commit --allow-empty -m "GENESIS"
+```
+or
 ```
 echo '# site' >> README.md
 git add README.md
