@@ -50,6 +50,10 @@ git commit -m 'chore: add README'
 git remote add origin https://github.com/mrmoish/site.git
 git push -u origin main
 ```
+для удаления связи
+```
+git remote remove origin
+```
 > origin - это имя (alias) удаленного репозитория https://github.com/mrmoish/site.git
 
 > origin == https://github.com/mrmoish/site.git
