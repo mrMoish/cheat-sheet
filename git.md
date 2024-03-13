@@ -131,7 +131,7 @@ git stash drop
 git rebase -i HEAD~3
 ```
 1. 'pick' замнаем на  'reword' перед нужным каммитом в первом редакторе
-2. В следущем редакторе новое имя коммита 
+2. В следущем редакторе новое имя коммита
 
 
 ### need to know more
@@ -229,6 +229,12 @@ git reset --hard <commit> # мы снова изменим ссылку указ
 git reset --mixed (без этого можно)
 git reset
 ```
+
+# отменить коммит git в удаленном репозитории
+```
+git push -f origin
+```
+
 
 I already know well that git commandso
 -------------------------------------
