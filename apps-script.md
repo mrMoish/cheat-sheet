@@ -1,1 +1,7 @@
-(https://contributor.pw/labs/apps-script-fundamentals-ru-1/#5)[good curs]
+[https://contributor.pw/labs/apps-script-fundamentals-ru-1](good curs 1)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-2](good curs 2)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-3](good curs 3)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-4](good curs 4)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-5](good curs 5)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-6](good curs 6)
+[https://contributor.pw/labs/apps-script-fundamentals-ru-7](good curs 7)
